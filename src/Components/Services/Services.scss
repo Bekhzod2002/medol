@@ -1,0 +1,88 @@
+.Services__part{
+    width: 100%;
+    height: 100%;
+    .Services__container{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        align-items: center;
+        text-align: center;
+        h5{
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 46px;
+            color: rgba(13, 76, 147, 1);
+            text-transform: uppercase;
+        }
+        .servis{
+            width: 100%;
+            height: 681px;
+            background: rgba(243, 243, 243, 1);
+            margin-top: 30px;
+            .servis__container{
+                width: 100%;
+                height: 100%;
+                background: url(../../Assets/Img/backblur.png);
+                padding: 30px;
+                display: flex;
+                gap: 50px;
+                justify-content: center;
+                align-items: center;
+                background-size: cover;
+                .box__service{
+                    width: 388px;
+                    height: 491px;
+                    border-radius: 50px;
+                    .box__container{
+                        width: 100%;
+                        height: 100%;
+                        background: rgba(255, 255, 255, 1);
+                        border-radius: 50px;
+                        display: grid;
+                        .box__img{
+                            width: 100%;
+                            height: auto;
+                            border-radius: 50px 50px 0 0 ;
+                        }
+                        .titles{
+                            width: 100%;
+                            height: 100%;
+                            padding: 20px;
+                            .titlef{
+                                font-size: 20px;
+                                font-weight: 500;
+                                line-height: 23px;
+                                letter-spacing: 0.065em;
+                                color: rgba(13, 76, 147, 1);
+                                text-transform: uppercase;
+                            }
+                            .titlem{
+                                font-size: 16px;
+                                font-weight: 300;
+                                line-height: 24px;
+                                letter-spacing: 0em;
+                                text-align: center;
+                                color: rgba(0, 0, 0, 1);
+                                
+                            }
+                        }
+                        .more__service{
+                            width: 270px;
+                            height: 50px;
+                            border-radius: 35px;
+                            border: none;
+                            margin-top: 20px;
+                            margin-left: 60px;
+                            color: #FFF;
+                            background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+                            &:hover{
+                                background: linear-gradient(90deg,  #00C9C9 0%, #0D4C93 100%,);
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,159 @@
+
+.header{
+    width: 100%;
+    height: 200px;
+    max-width: 1360px;
+    .header__container{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        .hat__part{
+            width: 100%;
+            height: 100%;
+            .hat__container{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .adress{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+  
+                    .location_icon{
+                        width: 50px;
+                        height: 50px;
+                        background: rgba(255, 255, 255, 1);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50%;
+    
+                    }
+                    p{
+                        margin-top: 10px;
+                    }
+                }
+                .contacts{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    .contact_icon{
+                        width: 50px;
+                        height: 50px;
+                        background: rgba(255, 255, 255, 1);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50%;
+                    }
+                    p{
+                        margin-top: 10px;
+                    }
+                }
+                .search{
+                    width: 50px;
+                    height: 50px;
+                    background: rgba(255, 255, 255, 1);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;    
+                }
+                .facebook{
+                    width: 153px;
+                    height: 50px;
+                    background: rgba(255, 255, 255, 1);
+                    display: flex;
+                    font-size: 12px;
+                    gap: 7px;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50px;
+                    color: rgba(13, 76, 147, 1);
+ 
+                }
+                .language{
+                    width: 135px;
+                    height: 50px;
+                    background: rgba(255, 255, 255, 1);
+                    display: flex;
+                    font-size: 12px;
+                    gap: 7px;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50px;
+                    color: rgba(13, 76, 147, 1);
+                }
+            }
+        }
+        .menu__part{
+            width: 100%;
+            height: 100%;
+            max-width: 1360px;
+            max-height: 70px;
+            border-radius: 50px;
+            background: rgba(255, 255, 255, 1);
+
+            .menu__container{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center; 
+                .link{
+                    width: 100%;
+                    height: 100%;
+                    border-right: 2px solid #e7e0e0;
+                    font-family: Roboto;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 23px;
+                    letter-spacing: 0em;
+                    color: /* linear-gradient(0deg, #00C9C9, #00C9C9) */
+                    linear-gradient(0deg, #0D4C93, #0D4C93);
+                    ;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    .dote{
+                        width: 12px;
+                        height: 12px;
+                        background: #00c9c9;
+                        border-radius: 6px;
+                        display: none;
+
+                    }
+                    &:hover{
+                        color: #00c9c9;
+                        .dote{
+                            display: block;
+                        }
+                    }
+                }
+                .link_{
+                    width: 100%;
+                    height: 100%;
+                    font-family: Roboto;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 23px;
+                    letter-spacing: 0em;
+                    color: /* linear-gradient(0deg, #00C9C9, #00C9C9) */
+                    linear-gradient(0deg, #0D4C93, #0D4C93);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    &:hover{
+                        color: #00c9c9;
+                    }
+                }
+            }
+        }
+    }
+}
+
+

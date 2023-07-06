@@ -1,0 +1,49 @@
+.slayder{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    max-width: 1360px;
+
+    .firstslide{
+        width: 100%;
+        height: 100%;
+        .slidecontainer{
+
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            .leftpart{
+                display: grid;
+                gap: 25px;
+                h5{
+                    font-size: 50px;
+                    font-weight: 500;
+                    line-height: 59px;
+                    letter-spacing: 0.09em;
+                    text-align: left;
+                    color: rgba(13, 76, 147, 1);
+                }
+                p{
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 40px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: rgba(54, 53, 53, 1);
+                }
+                .podrobno{
+                    width: 270px;
+                    height: 70px;
+                    border-radius: 35px;
+                    background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+                    border: none;
+                    color: #FFF;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+
